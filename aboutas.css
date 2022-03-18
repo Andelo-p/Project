@@ -28,21 +28,23 @@ body{
 .her{
     align-items: center;
     height: 800px;
+    border: 1px solid black;
     width: 32%;
     margin-left: 1%;
     margin-right: 0.5%;}
 .charactertext{
     height: 800px;
-    width: 32%;
-   
+    width: 35%;
+   border: 1px solid black;
     margin-left: 0.5%;
     margin-right: 0.5%;}
 .him{
     align-items: center;
     height: 800px;
     width: 32%;
-    margin-left: 5%;
-    margin-right: 0.5%;}
+    border: 1px solid black;
+    margin-left: 0.5%;
+    margin-right:1%;}
 /* --Zaglavlje-- */
 footer{
     display: flex;
