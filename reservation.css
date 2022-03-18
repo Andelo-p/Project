@@ -1,0 +1,35 @@
+/*--Text tags--*/
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*--Grpund plan--*/
+
+/*--Middle part*/
+#middleplan{
+    display: flex;
+    flex-direction: row;
+}
+#leftside {
+    width: 100px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50px 0px 0px 50px;
+}
+#middle{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+#rightside{
+    width: 100px;
+    height: 400px;
+    background-color:lime;
+    border-radius: 0px 50px 50px 0px;
+    
+}
+/*--Bottom part*/
