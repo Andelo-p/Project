@@ -8,22 +8,30 @@
     <title>Log in</title>
 </head>
 <body>
-    <!--Login-->
+    <div class="loginform">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
 
-    <div class="login" id="login">
-        <h1>Log in</h1>
-        <label for="Username">Enter Username</label>
-        <input type="text" name="Username" id="log_in_user_name" placeholder="Username"><br><br><br>
-        <label for="Pasword">Enter Pasword</label>
-        <input type="text" name="Pasword" id="log_in_pasword" placeholder="Pasword"><br>
-        <button onclick="logIn()"></button>
-    </div>
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="" id="signupusername">
+					<input type="email" name="email" placeholder="Email without @**.**" required="" id="signupemail">
+					<input type="password" name="pswd" placeholder="Password" required="" id="signuppassword">
+					<button onclick="signUp()">Sign up</button>
+				</form>
+			</div>
 
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="" id="loginemail">
+					<input type="password" name="pswd" placeholder="Password" required="" id="loginpassword">
+					<button onclick="logIn()">Login</button>
+				</form>
+			</div>
+	</div>
 
-    <!--Sign in-->
-    <div class="signin" id="signin">
-        <h1>Sign In</h1>
-    </div>
+ 
     <script src="login.js"></script>
 </body>
 </html>
