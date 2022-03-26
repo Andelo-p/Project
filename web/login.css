@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+
+body{
+    background-image: url(../pictures/login-background.jpg);
+    background-size: cover;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15%;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+}
+.login input{
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom:30 px;
+    text-align: center;
+    width: 200px;
+}
+.login label{
+   margin-left: 150px;
+}
+.signin{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15%;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    display: none;
+}
