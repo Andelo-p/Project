@@ -43,6 +43,7 @@ body{
     background-image: url(../pictures/education.png);
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 3%;
 }
 .education p{
     opacity: 0;
@@ -93,6 +94,7 @@ body{
     height: 800px;
     width: 32%;
     }
+
 /* --Zaglavlje-- */
 footer{
     display: flex;
