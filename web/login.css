@@ -35,7 +35,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #fff;
+	color: white;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -89,7 +89,7 @@ button:hover{
 	transition: .8s ease-in-out;
 }
 .login label{
-	color: white;
+	color: #e0dede;
 	transform: scale(.6);
 }
 

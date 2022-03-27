@@ -1,17 +1,22 @@
 /* --Tagovi(bez klasa)--*/
 h1{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7em;
+    color: white;
+    
+}
 h2{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;}
+    font-family: 'Times New Roman', Times, serif;
+    color: white;}
 a{
     padding-left: 7.5%;}
 /*--Sidenbar--*/
 
 /*--tijelo--*/
 body{
-    background-color: aliceblue;
+    background-image: url(../pictures/binarni2.jpg);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -28,23 +33,66 @@ body{
 .her{
     align-items: center;
     height: 800px;
-    border: 1px solid black;
     width: 32%;
-    margin-left: 1%;
-    margin-right: 0.5%;}
-.charactertext{
-    height: 800px;
+    }
+.education{
+    height: 300px;
     width: 35%;
-   border: 1px solid black;
-    margin-left: 0.5%;
-    margin-right: 0.5%;}
+    transition: none;
+    justify-content: center;
+    background-image: url(../pictures/education.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.education p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+}
+.education:hover{
+    height: 250px;
+    width: 18%;
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+.education:hover p{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hobbies{
+    height: 500px;
+    width: 35%;
+    transition: none;
+    justify-content: left top;
+    background-image: url(../pictures/hobbies2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.hobbies p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+}
+.hobbies:hover{
+    height: 250px;
+    width: 18%;
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+.hobbies:hover p{
+    opacity: 1;
+    transform: scale(1);
+}
+
 .him{
     align-items: center;
     height: 800px;
     width: 32%;
-    border: 1px solid black;
-    margin-left: 0.5%;
-    margin-right:1%;}
+    }
 /* --Zaglavlje-- */
 footer{
     display: flex;
@@ -58,7 +106,7 @@ footer{
     padding-bottom: 1%;
     padding-top: 1%;
     border-radius: 15px 50px 30px 5px;
-    background-color: #bfff80;
+    background-color: #363736;
     -webkit-border-radius: 15px 50px 30px 5px;
     -moz-border-radius: 15px 50px 30px 5px;
     -ms-border-radius: 15px 50px 30px 5px;
