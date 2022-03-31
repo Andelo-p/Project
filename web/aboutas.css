@@ -1,15 +1,74 @@
 /* --Tagovi(bez klasa)--*/
-h1{
-    text-align: center;
+.header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.7em;
-    color: white;
-    
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-bottom: 0.25%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 15px 50px;
+    background-color: #363736;
+    -webkit-border-radius: 15px 50px 30px 5px;
+    -moz-border-radius: 15px 50px 30px 5px;
+    -ms-border-radius: 15px 50px 30px 5px;
+    -o-border-radius: 15px 50px 30px 5px;
 }
+.inner_header{
+    width: 1000px;
+    height: 147px;
+    border-radius: 15px 50px;
+    display: block;
+    margin: 0 auto;
+    background-color: #03495B;
+}
+.about_us{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.about_us h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+.about_us h1 span{
+    font-weight: 200;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
 h2{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: white;}
+    color: white;
+    font-size: 1.8rem;    
+}
 a{
     padding-left: 7.5%;}
 /*--Sidenbar--*/
@@ -17,6 +76,8 @@ a{
 /*--tijelo--*/
 body{
     background-image: url(../pictures/binarni2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -32,12 +93,12 @@ body{
     flex-direction: row;}
 .her{
     align-items: center;
-    height: 800px;
-    width: 32%;
+    height: 1200px;
+    width: 40%;
     }
 .education{
-    height: 300px;
-    width: 35%;
+    height: 350px;
+    width: 40%;
     transition: none;
     justify-content: center;
     background-image: url(../pictures/education.png);
@@ -49,12 +110,12 @@ body{
     opacity: 0;
     transform: scale(0);
     transition: 1.2s;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: white;
 }
 .education:hover{
-    height: 250px;
-    width: 18%;
+    height: 350px;
+    width: 40%;
     box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
 }
 .education:hover p{
@@ -62,9 +123,36 @@ body{
     transform: scale(1);
 }
 
+.contact{
+    height: 350px;
+    width: 35%;
+    transition: none;
+    justify-content: center;
+    background-image: url(../pictures/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 3%;
+}
+.contact p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.8rem;
+    color: white;
+}
+.contact:hover{
+    height: 350px;
+    width: 35%;
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+.contact:hover p{
+    opacity: 1;
+    transform: scale(1);
+}
+
 .hobbies{
     height: 500px;
-    width: 35%;
+    width: 55%;
     transition: none;
     justify-content: left top;
     background-image: url(../pictures/hobbies2.png);
@@ -76,13 +164,13 @@ body{
     opacity: 0;
     transform: scale(0);
     transition: 1.2s;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: white;
 }
 .hobbies:hover{
-    height: 250px;
-    width: 18%;
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+    height: 500px;
+    width: 55%;
+    box-shadow: 0 0 0 250px rgba(0, 0, 0, 0.8) inset;
 }
 .hobbies:hover p{
     opacity: 1;
@@ -91,12 +179,12 @@ body{
 
 .him{
     align-items: center;
-    height: 800px;
-    width: 32%;
+    height: 1200px;
+    width: 40%;
     }
-
 /* --Zaglavlje-- */
 footer{
+    height: 150px;
     display: flex;
     flex-direction: row;
     align-items: center ;
@@ -107,7 +195,7 @@ footer{
     margin-bottom: 0.25%;
     padding-bottom: 1%;
     padding-top: 1%;
-    border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 50px;
     background-color: #363736;
     -webkit-border-radius: 15px 50px 30px 5px;
     -moz-border-radius: 15px 50px 30px 5px;
