@@ -14,20 +14,10 @@ allUsers.push(admin2);
 function logIn(){
     let logInEmail = document.getElementById("loginemail").value;
     let logInPassword = document.getElementById("loginpassword").value;
-    for(let i =0;i<allUsers.length;i++){
-        if(logInEmail== allUsers[i].email){
-            if(logInPassword == allUsers[i].password){
-                openHome();
-                return;
-            }else{
-                alert("Wrong password");
-                return;
-                }
-        }else{
-            alert("User did not exist");
-        }
-
+    for(let i=0;i<allUsers.length;i++){
+        alert(allUsers[i].username);
     }
+   //fix it
 }
 
 /*---SignUp--- */
@@ -46,24 +36,31 @@ function signUp(){
             }else{
                 let newUser = new createUser(signUpUsername,signUpEmail,signUpPassword);
                 allUsers.push(newUser);
-                alert("1");
+                alert("1")
+                return;
             }
         }
     }
   
 }
 /*---Open Home ---*/
+function openHome(){
+    window.location.href = 'home.html';
+}
+/*--- Switch to sign in */
+function switchSignIn(){
+    document.getElementById("signin").style.display="block"
+    document.getElementById("login").style.display="none"
+}
+/*--- Switch to sign in */
+function switchLogIn(){
+    document.getElementById("login").style.display="block"
+    document.getElementById("signin").style.display="none"
+    
+}
 
 
 
 
 
 
-
-
-
-/*
-                TO DO
-                Fix signup/login form
-
-*/

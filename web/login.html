@@ -10,28 +10,31 @@
 </head>
 <body>
     <div class="loginform">  	
-		<input type="checkbox" id="chk" aria-hidden="true">
-
-			<div class="signup">
-				<form>
-					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" required="" id="signupusername">
-					<input type="text" name="email" placeholder="Email" required="" id="signupemail">
-					<input type="password" name="pswd" placeholder="Password" required="" id="signuppassword">
-					<button onclick="signUp()">Sign up</button>
-				</form>
-			</div>
- 
-			<div class="login">
-				<form>
-					<label for="chk" aria-hidden="true">Login</label>
-					<input type="text" name="email" placeholder="Email" required="" id="loginemail">
-					<input type="password" name="pswd" placeholder="Password" required="" id="loginpassword">
-					<button onclick="logIn()">Login</button>
-				</form>
-			</div>
+		<!--Login-->
+		<div class="login" id="login">
+			<h3>Log In</h3>
+			<form>
+				<br><br><br>
+				<input type="text" id="loginemail" placeholder="Email">
+				<input type="text" id="loginpassword" placeholder="Password"><br><br>
+				<input type="button" id="loginbutton" value="Log In" onclick="logIn()"><br><br><br>
+				<p>Don't have account. <input type="button" id="signinbutton" value="Sign In" onclick="switchSignIn()"></p>
+			</form>
+		</div>
+		<!--Signin-->
+		<div class="signin" id="signin">
+			<h3>Sign In</h3>
+			<form>
+				<br><br>
+				<input type="text" id="signupusername" placeholder="Username">
+				<input type="text" id="signupemail" placeholder="Email">
+				<input type="text" id="signuppassword" placeholder="Password"><br><br>
+				<input type="button" id="loginbutton" value="Sign In" onclick="signUp()"><br><br>
+				<p>Alerdy have account. <input type="button" id="signinbutton" value="Log In" onclick="switchLogIn()"></p>
+			</form>
+		</div>	
 	</div>
-
+	
  
     <script src="login.js"></script>
 </body>
