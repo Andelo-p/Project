@@ -14,10 +14,41 @@ allUsers.push(admin2);
 function logIn(){
     let logInEmail = document.getElementById("loginemail").value;
     let logInPassword = document.getElementById("loginpassword").value;
-    for(let i=0;i<allUsers.length;i++){
-        alert(allUsers[i].username);
-    }
-   //fix it
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
 
 /*---SignUp--- */
