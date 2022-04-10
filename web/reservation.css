@@ -39,8 +39,10 @@ h3{
 #middle,#leftside,#rightside,#semicircle{
     background-color: antiquewhite;
 }
+
+/*----> TABLES <----*/
 /*--rows of tables--*/
-#firstrow,#secondrow{
+#firstrow,#secondrow,#thirdrow,#fourthrow,#fifthrow,#sixthrow,#seventhrow{
     display: flex;
     flex-direction: row;
 }
@@ -51,13 +53,13 @@ h3{
     border-radius: 50%;
     background-color: transparent;
     border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin:4.5%;
-    margin-left: 6%;
-    margin-top: 6%;
 }
 /*--second row--*/
 #table2-1,#table2-2,#table2-3,#table2-4,#table2-5,#table2-6,#table2-7{
@@ -66,14 +68,70 @@ h3{
     border-radius: 50%;
     background-color: transparent;
     border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+/*--third row--*/
+#table3-1,#table3-2,#table3-3,#table3-4,#table3-5,#table3-6,#table3-7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px black solid;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
 }
+/*--fourthrow--*/
+#table4-1,#table4-2,#table4-3,#table4-4,#table4-5,#table4-6,#table4-7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+/*--fifthrow--*/
+#table5-1,#table5-2,#table5-3,#table5-4,#table5-5,#table5-6,#table5-7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+/*--sixthrow--*/
+#table6-1,#table6-2,#table6-3,#table6-4,#table6-5,#table6-6,#table6-7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+/*--seventthrow--*/
+#table7-1,#table7-2,#table7-3,#table7-4,#table7-5,#table7-6,#table7-7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px black solid;
+    margin:4.5%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
 #tablenumber{
     width: 20px;
     height: 20px;
@@ -117,12 +175,27 @@ h3{
     border: 1px black solid;
     margin-left: 13% ;
     border-radius: 10px;
-    
-}
-
-.detailsselection{
     display: none;
 }
+#selectiontablename,#selectiontableprice{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    width: 250px;
+    margin-left: 20px;
+}
+#selectionbox{
+    display: flex;
+    flex-direction: row;
+}
+#selection,#price{
+    width: 500px;
+    height: 740px;
+}
+
+
+
 /*--enter ticket--*/
 .ticket{
     margin-top: 6%;

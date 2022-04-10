@@ -12,7 +12,7 @@
     <h1>Reservation</h1>
 
     <!--Ground plan-->
-    <div class="groundplan">
+    <div class="groundplan" id="groundplan">
 
         <div id="middleplan">
 
@@ -23,25 +23,74 @@
 
                 <div id="firstrow">
                     <div id="table1-1"><button id="tablenumber" onclick="table1_1()">1</button></div>
-                    <div id="table1-2"><button id="tablenumber">2</button></div>
-                    <div id="table1-3"><button id="tablenumber">3</button></div>
-                    <div id="table1-4"><button id="tablenumber">4</button></div>
-                    <div id="table1-5"><button id="tablenumber">5</button></div>
-                    <div id="table1-6"><button id="tablenumber">6</button></div>
-                    <div id="table1-7"><button id="tablenumber">7</button></div>
-                    
+                    <div id="table1-2"><button id="tablenumber" onclick="table1_2()">2</button></div>
+                    <div id="table1-3"><button id="tablenumber" onclick="table1_3()">3</button></div>
+                    <div id="table1-4"><button id="tablenumber" onclick="table1_4()">4</button></div>
+                    <div id="table1-5"><button id="tablenumber" onclick="table1_5()">5</button></div>
+                    <div id="table1-6"><button id="tablenumber" onclick="table1_6()">6</button></div>
+                    <div id="table1-7"><button id="tablenumber" onclick="table1_7()">7</button></div>
                 </div>
+
                 <div id="secondrow">
-                    <div id="table2-1"><button id="tablenumber">9</button></div>
-                    <div id="table2-2"><button id="tablenumber">10</button></div>
-                    <div id="table2-3"><button id="tablenumber">11</button></div>
-                    <div id="table2-4"><button id="tablenumber">11</button></div>
-                    <div id="table2-5"><button id="tablenumber">12</button></div>
-                    <div id="table2-6"><button id="tablenumber">13</button></div>
-                    <div id="table2-7"><button id="tablenumber">14</button></div>
+                    <div id="table2-1"><button id="tablenumber" onclick="table2_1()">9</button></div>
+                    <div id="table2-2"><button id="tablenumber" onclick="table2_2()">10</button></div>
+                    <div id="table2-3"><button id="tablenumber" onclick="table2_3()">11</button></div>
+                    <div id="table2-4"><button id="tablenumber" onclick="table2_4()">11</button></div>
+                    <div id="table2-5"><button id="tablenumber" onclick="table2_5()">12</button></div>
+                    <div id="table2-6"><button id="tablenumber" onclick="table2_6()">13</button></div>
+                    <div id="table2-7"><button id="tablenumber" onclick="table2_7()">14</button></div>
+                </div>
+
+                <div id="thirdrow">
+                    <div id="table3-1"><button id="tablenumber">15</button></div>
+                    <div id="table3-2"><button id="tablenumber">16</button></div>
+                    <div id="table3-3"><button id="tablenumber">17</button></div>
+                    <div id="table3-4"><button id="tablenumber">18</button></div>
+                    <div id="table3-5"><button id="tablenumber">19</button></div>
+                    <div id="table3-6"><button id="tablenumber">20</button></div>
+                    <div id="table3-7"><button id="tablenumber">21</button></div>
+                </div>
+
+                <div id="fourthrow">
+                    <div id="table3-1"><button id="tablenumber">22</button></div>
+                    <div id="table3-2"><button id="tablenumber">23</button></div>
+                    <div id="table3-3"><button id="tablenumber">24</button></div>
+                    <div id="table3-4"><button id="tablenumber">25</button></div>
+                    <div id="table3-5"><button id="tablenumber">26</button></div>
+                    <div id="table3-6"><button id="tablenumber">27</button></div>
+                    <div id="table3-7"><button id="tablenumber">28</button></div>
+                </div>
+
+                <div id="fifthrow">
+                    <div id="table3-1"><button id="tablenumber">29</button></div>
+                    <div id="table3-2"><button id="tablenumber">30</button></div>
+                    <div id="table3-3"><button id="tablenumber">31</button></div>
+                    <div id="table3-4"><button id="tablenumber">32</button></div>
+                    <div id="table3-5"><button id="tablenumber">33</button></div>
+                    <div id="table3-6"><button id="tablenumber">34</button></div>
+                    <div id="table3-7"><button id="tablenumber">35</button></div>
+                </div>
+
+                <div id="sixthrow">
+                    <div id="table3-1"><button id="tablenumber">36</button></div>
+                    <div id="table3-2"><button id="tablenumber">37</button></div>
+                    <div id="table3-3"><button id="tablenumber">38</button></div>
+                    <div id="table3-4"><button id="tablenumber">39</button></div>
+                    <div id="table3-5"><button id="tablenumber">40</button></div>
+                    <div id="table3-6"><button id="tablenumber">41</button></div>
+                    <div id="table3-7"><button id="tablenumber">42</button></div>
+                </div>
+
+                <div id="seventhrow">
+                    <div id="table3-1"><button id="tablenumber">43</button></div>
+                    <div id="table3-2"><button id="tablenumber">44</button></div>
+                    <div id="table3-3"><button id="tablenumber">45</button></div>
+                    <div id="table3-4"><button id="tablenumber">46</button></div>
+                    <div id="table3-5"><button id="tablenumber">47</button></div>
+                    <div id="table3-6"><button id="tablenumber">48</button></div>
+                    <div id="table3-7"><button id="tablenumber">49</button></div>
                 </div>
             </div>
-
             <div id="rightside">
             </div>
         </div>
@@ -56,11 +105,28 @@
     <!--Selection and bill-->
         
         <div class="detailsselection" id="detailsselection">
+
             <h3>Details selection</h3>
-            <div id="selection">
+            <div id="selectionbox">
+
+
+                <div id="selection">
+                    <p>Table posistion</p>
+                        <input type="text" id="selectiontablename" readonly>
+                    <p>Number of people on table(30 kn per people)</p>
+                        <input type="number" id="selectionofpeople" min="1">
+               </div>
+
+
+
+                <div id="price">
+                    <p>Table prize</p>
+                        <input type="text" id="selectiontableprice" readonly>
+                    <p>Price for people</p>
+                        <input type="text" id="selectionpeopleprice" readonly>
                 </div>
+
             </div>
-            <div id="price"></div>
         </div>
 
 
