@@ -14,41 +14,16 @@ allUsers.push(admin2);
 function logIn(){
     let logInEmail = document.getElementById("loginemail").value;
     let logInPassword = document.getElementById("loginpassword").value;
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   for(let i =0;i<allUsers.length;i++){
+       if(allUsers[i].email==logInEmail){
+           if(allUsers[i].password == logInPassword){
+               openHome();
+               return;
+           }
+       }else{
+           document.getElementById("loginemail").value="Incorrect email or password"
+       }
+   }
 }
 
 /*---SignUp--- */
@@ -67,7 +42,10 @@ function signUp(){
             }else{
                 let newUser = new createUser(signUpUsername,signUpEmail,signUpPassword);
                 allUsers.push(newUser);
-                alert("1")
+                document.getElementById("signupusername").value="";
+                document.getElementById("signupemail").value="";
+                document.getElementById("signuppassword").value="";
+                switchLogIn();
                 return;
             }
         }
@@ -83,15 +61,9 @@ function switchSignIn(){
     document.getElementById("signin").style.display="block"
     document.getElementById("login").style.display="none"
 }
-/*--- Switch to sign in */
+/*--- Switch to log in */
 function switchLogIn(){
     document.getElementById("login").style.display="block"
     document.getElementById("signin").style.display="none"
     
 }
-
-
-
-
-
-
