@@ -175,7 +175,7 @@ h3{
     border: 1px black solid;
     margin-left: 13% ;
     border-radius: 10px;
-    display: none;
+  
 }
 #selectiontablename,#selectiontableprice{
     font-family: 'Times New Roman', Times, serif;
@@ -193,8 +193,10 @@ h3{
     width: 500px;
     height: 740px;
 }
-
-
+/*---drink selection*/
+#whiskeyselect,#vodkaselect,#cognacselect,#rumselect,#tequilaselect,#ginselect{
+    display: none;
+}
 
 /*--enter ticket--*/
 .ticket{
