@@ -1,6 +1,6 @@
 
 .header{
-    height: 100px;
+    height: 147px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,14 +13,10 @@
     padding-top: 1%;
     border-radius: 15px 50px;
     background-color: #363736;
-    -webkit-border-radius: 15px 50px 30px 5px;
-    -moz-border-radius: 15px 50px 30px 5px;
-    -ms-border-radius: 15px 50px 30px 5px;
-    -o-border-radius: 15px 50px 30px 5px;
 }
 .inner_header{
-    width: 1000px;
-    height: 147px;
+    width: 98%;
+    height: 100%;
     border-radius: 15px 50px;
     display: block;
     margin: 0 auto;
@@ -52,6 +48,7 @@
     display: table;
     float: left;
     padding: 0px 20px;
+    text-decoration: none;
 }
 .navigation a li{
     display: table-cell;
@@ -71,8 +68,6 @@ h2{
 }
 a{
     padding-left: 7.5%;}
-/*--Sidenbar--*/
-
 /*--tijelo--*/
 body{
     background-image: url(../pictures/binarni2.jpg);
@@ -80,25 +75,25 @@ body{
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
-
-
 /* --Likovi-- */
 .character{
     margin-top: 3%;
     display: flex;
     flex-direction: row;}
+.charactertext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5%;
+}
 .her{
     align-items: center;
-    height: 1200px;
-    width: 40%;
+    height: 1000px;
+    width: 415px;
     }
 .education{
-    height: 350px;
-    width: 40%;
+    height: 250px;
+    width: 250px;
     transition: none;
     justify-content: center;
     background-image: url(../pictures/education.png);
@@ -110,22 +105,25 @@ body{
     opacity: 0;
     transform: scale(0);
     transition: 1.2s;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
 }
 .education:hover{
-    height: 350px;
-    width: 40%;
+    height: 250px;
+    width: 250px;
     box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
 }
 .education:hover p{
     opacity: 1;
     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
-
 .contact{
-    height: 350px;
-    width: 35%;
+    height: 250px;
+    width: 250px;
     transition: none;
     justify-content: center;
     background-image: url(../pictures/contact.png);
@@ -137,12 +135,12 @@ body{
     opacity: 0;
     transform: scale(0);
     transition: 1.2s;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
 }
 .contact:hover{
-    height: 350px;
-    width: 35%;
+    height: 250px;
+    width: 250px;
     box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
 }
 .contact:hover p{
@@ -151,8 +149,8 @@ body{
 }
 
 .hobbies{
-    height: 500px;
-    width: 55%;
+    height: 350px;
+    width: 350px;
     transition: none;
     justify-content: left top;
     background-image: url(../pictures/hobbies2.png);
@@ -164,23 +162,36 @@ body{
     opacity: 0;
     transform: scale(0);
     transition: 1.2s;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
 }
 .hobbies:hover{
-    height: 500px;
-    width: 55%;
+    height: 350px;
+    width: 350px;
     box-shadow: 0 0 0 250px rgba(0, 0, 0, 0.8) inset;
 }
 .hobbies:hover p{
     opacity: 1;
     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 .him{
     align-items: center;
-    height: 1200px;
-    width: 40%;
+    justify-content: right;
+    height: 1000px;
+    width: 415px;
     }
 /* --Zaglavlje-- */
 footer{
