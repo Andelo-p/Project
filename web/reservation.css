@@ -59,8 +59,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
-
 h2{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -89,7 +87,12 @@ h3{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+body{
+background-image: url("..//pictures/discobac.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
 /*--Grpund plan--*/
 .groundplan{
     margin-left: 13%;
@@ -113,11 +116,12 @@ h3{
     width: 600px;
     height: 600px;
     border-top: 1px black solid;
+    border-bottom:#2f2f2f;
     display: flex;
     flex-direction: column;
 }
 #middle,#leftside,#rightside,#semicircle{
-    background-color: antiquewhite;
+    background-color: #2f2f2f;
 }
 
 /*----> TABLES <----*/
@@ -131,8 +135,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -146,8 +149,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -161,8 +163,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -172,8 +173,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -183,8 +183,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -194,8 +193,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -205,8 +203,7 @@ h3{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: transparent;
-    border: 1px black solid;
+    background-color: #ffcb74;
     margin:4.5%;
     margin-left: 6%;
     margin-top: 6%;
@@ -218,6 +215,7 @@ h3{
     border: none;
     background-color: transparent;
     font-size: 9px;
+    color: #050206;
     text-align: center;
 }
 #rightside{
@@ -240,6 +238,7 @@ h3{
     border-bottom: 1px black solid;
     border-left: 1px black solid;
     border-right: 1px black solid;
+    border-top: #2f2f2f;
     border-radius: 0px 0px 250px 250px;
     -webkit-border-radius: 0px 0px 250px 250px;
     -moz-border-radius: 0px 0px 250px 250px;
@@ -255,7 +254,7 @@ h3{
     border: 1px black solid;
     margin-left: 13% ;
     border-radius: 10px;
-  
+  background-color: #03495B;
 }
 #selectiontablename,#selectiontableprice{
     font-family: 'Times New Roman', Times, serif;
@@ -268,11 +267,21 @@ h3{
 #selectionbox{
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
-#selection,#price{
+#selection{
+    margin: auto;
+}
+#price{
+    display: none; 
     width: 500px;
     height: 740px;
 }
+
+
+
+
+
 /*---drink selection*/
 #whiskeyselect,#vodkaselect,#cognacselect,#rumselect,#tequilaselect,#ginselect{
     display: none;
