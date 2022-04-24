@@ -21,6 +21,33 @@
             </ul>
         </div>
     </div>
+    <div class="live">
+        <img src="../pictures/hiphop.jpg" height="200px" width="200px">
+    </div>
+    <div class="video1" style="max-width:415px">
+        <img class="mySlides" src="../pictures/hiphopposter.jpg" style="width:100%">
+        <img class="mySlides" src="../pictures/rockposter.png" style="width:100%">
+        <img class="mySlides" src="../pictures/poster.png" style="width:100%">
+    </div>
 
+    <div class="icon2" style="max-width: 415px">
+        <img src="../pictures/icon2.png" style="width: 100%">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000);
+        }
+    </script>
 </body>
 </html>
