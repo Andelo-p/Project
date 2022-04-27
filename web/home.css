@@ -67,3 +67,49 @@ h2{
 }
 a{
     padding-left: 7.5%;}
+
+.live{
+    border-style: solid;
+    border-width: auto;
+    border-color: #F5C810;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 450px;
+    margin-left: 450px;
+    background-color: lightblue;
+}
+
+.video1{
+    border-style: solid;
+    border-width: medium;
+    border-color: #4C035B;
+    align-items: center;
+    float: left;
+    height: 800px;
+    width: 415px;
+    margin-left: 10px;
+}
+
+.icon2{
+    border-style: solid;
+    border-width: medium;
+    border-color: #4C035B;
+    align-items: center;
+    float: right;
+    height: 800px;
+    width: 415px;
+    margin-right: 10px;
+}
+
+.mySlides{
+    display: none;
+}
+
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
