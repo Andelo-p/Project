@@ -254,49 +254,43 @@ background-position: center;
     border: 1px black solid;
     margin-left: 13% ;
     border-radius: 10px;
-  background-color: #03495B;
+    background-color: #03495B;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
-#selectiontablename,#selectiontableprice{
-    font-family: 'Times New Roman', Times, serif;
+.tabledetail{
     text-align: center;
-    border: none;
-    background-color: transparent;
-    width: 250px;
-    margin-left: 20px;
 }
-#selectionbox{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-#selection{
-    margin: auto;
-}
-#price{
-    display: none; 
-    width: 500px;
-    height: 740px;
+.drinkselect{
+    text-align: center;
+    width: 650px;
+    margin-left: 174px;
 }
 
-
-
-
-
-/*---drink selection*/
-#whiskeyselect,#vodkaselect,#cognacselect,#rumselect,#tequilaselect,#ginselect{
-    display: none;
-}
 
 /*--enter ticket--*/
 .ticket{
     margin-top: 6%;
-    display: none;
-}
-.enterticket{
-    margin-top: 3%;
     margin-left: 13%;
     width: 1000px;
-    height: 400px;
+    height: 450px;
     border: 1px black solid;
-    border-radius: 10px;
-    }
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.ticketdrink{
+    width: 33%;
+}
+.ticketmusic{
+    width: 33%;
+ 
+    background-size: cover;
+    background-position: center;
+}
+.ticketdetail{
+    width: 33%;
+}

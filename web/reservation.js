@@ -125,62 +125,16 @@ function costPerPeople(){
 }
 
 /*---Ticket--- */
-
-
-
+ function rockmusic(){
+     document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/rockticket.png')"
+ }
+ function technomusic(){
+    document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/technoticket.png')"
+ }
+ function popomusic(){
+    document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/popmusicticket.png')"
+ }
+ function hiphopmusic(){
+     document.getElementById("ticketmusic").style.backgroundImage="url('../pictures/hiphopticket.png')"
+ }
 /*---select type of drink--- */
-function whisky(){
-    document.getElementById("whiskeyselect").style.display="block";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
-}
-function vodka(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="block";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
-}
-function cognac(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="block";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
-}
-function rum(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="block";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
-}
-function tequila(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="block";
-    document.getElementById("ginselect").style.display="none";
-}
-function gin(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="block";
-}
-
-function whiskeyType1(){
-    let numOfBottles =document.getElementById("numofbottles").value ;
-    let priceWhiskey1 = 300 
-    let totalWhiskey1 = numOfBottles * priceWhiskey1;
-    alert(totalWhiskey1)
-}

@@ -122,93 +122,87 @@
         
         <div class="detailsselection" id="detailsselection">
 
-            <h3>Details selection</h3>
-            <div id="selectionbox">
-
-
-                <div id="selection">
-                    <p>Table posistion</p>
-                        <input type="text" id="selectiontablename" readonly>
-                    <p>Number of people on table(30 kn per people)</p>
-                        <input type="text" id="selectionofpeople">
-                    <p>Type of main drink</p>
-                    <input type="button" value="Whiskey" onclick="whisky()">
-                    <input type="button" value="Vodka" onclick="vodka()">
-                    <input type="button" value="Cognac" onclick="cognac()">
-                    <input type="button" value="Rum" onclick="rum()">
-                    <input type="button" value="Tequila" onclick="tequila()">
-                    <input type="button" value="Gin" onclick="gin()">
-
-                        <div id="whiskeyselect">
-                            <p>Select whiskey</p>
-                            <input type="button" id="typeofwhiskey1" value="Jack Daniels" onclick="whiskeyType1()">
-                            <input type="button" id="typeofwhiskey2"  value="Johnny Walker" onclick="whiskeyType2()">
-                            <input type="button" id="typeofwhiskey3" value="Jameson" onclick="whiskeyType3()">
-                            <input type="button" id="typeofwhiskey4" value="Chivas" onclick="whiskeyType4()">
-                        </div>
-                        <div id="vodkaselect">
-                        <p>Select Vodka</p>
-                            <input type="button" value="Belvedere">
-                            <input type="button" value="Grey Goose">
-                            <input type="button" value="Smirnoff No. 21">
-                            <input type="button" value="Beluga">
-                        </div>
-                        <div id="cognacselect">
-                            <p>Select Cognac</p>
-                            <input type="button" value="Hennessy">
-                            <input type="button" value="Badel 1862">
-                            <input type="button" value="Louis XIII">
-                            <input type="button" value="Rémy Martin XO">
-                        </div>
-                        <div id="rumselect">
-                            <p>Select rum</p>
-                            <input type="button" value="CRUZAN ESTATE DIAMOND">
-                            <input type="button" value="BACARDÍ RESERVA OCHO RARE GOLD RUM">
-                            <input type="button" value="TEN TO ONE CARIBBEAN WHITE RUM">
-                            <input type="button" value="EL DORADO">
-                        </div>
-                        <div id="tequilaselect">
-                            <p>Select tequila</p>
-                            <input type="button" value="Patrón">
-                            <input type="button" value="Casa Noble">
-                            <input type="button" value="Espolòn">
-                            <input type="button" value="Milagro">
-                        </div>
-                        <div id="ginselect">
-                            <p>Select Gin</p>
-                            <input type="button" value="Sipsmith London Dry">
-                            <input type="button" value="Bombay Sapphire Gin">
-                            <input type="button" value="Monkey 47 Gin">
-                            <input type="button" value="NOLET's Reserve Gin">
-                        </div>
-
-                        
-
-               
-               </div>
 
 
 
-                <div id="price">
-                    <p>Table prize</p>
-                        <input type="text" id="selectiontableprice" readonly>
-                    <p>Price for people</p>
-                        <input type="text" id="selectionpeopleprice" readonly>
-                </div>
-
+            <div class="tabledetail">
+                <p>Table posistion</p>
+                    <input type="text" id="tableposistion" readonly>
+                <p>Number of people</p>
+                    <input type="number"id="peopletable" min="1">
             </div>
+
+
+
+
+            <div class="drinkselect">
+                <p>Number of bottles</p>
+                    <input type="number" id="numberofbottles" min="1">
+                <p>Alcohol drink</p>
+                    <input type="button" value="Jack Daniels">
+                    <input type="button" value="Johnny Walker">
+                    <input type="button" value="Jameson">
+                    <input type="button" value="Propre Twelve">
+                    <input type="button" value="Beluga Vodka">
+                    <input type="button" value="Grey Goose">
+                    <input type="button" value="Smirnof No.21">
+                    <input type="button" value="Badel 1862">
+                    <input type="button" value="Jegermeister">
+                    <input type="button" value="Tanqueray Gin">
+                    <input type="button" value="Beefeater Gin">
+                    <input type="button" value="Absinthe">
+                    <input type="button" value="Moet">
+            </div>
+               
+
+
+            <div class="softdrink">
+                <p>Number of bottles</p>
+                    <input type="number" id="numofsoftdrink" min="1">
+                <p>Drink list</p>
+                    <input type="button" value="Coca-Cola 1L">
+                    <input type="button" value="Coca-Cola 0.33L">
+                    <input type="button" value="Juice 1L">
+                    <input type="button" value="Monster Energy 0.5L">
+                    <input type="button" value="Red Bull 0.25L">
+                    <input type="button" value="Apple Juice 1L">
+                    <input type="button" value="Tonic Water">
+            </div>
+
+
+
+            <div class="favoritemusic">
+                <p>Select favortite type of music</p>
+                    <input type="button" value="Rock" onclick="rockmusic()">
+                    <input type="button" value="Techno" onclick="technomusic()">
+                    <input type="button" value="Hip Hop"onclick="hiphopmusic()">
+                    <input type="button" value="Tic Toc"onclick="tictocmusic()">
+                    <input type="button" value="Rap"onclick="rapmusic()">
+                    <input type="button" value="Pop"onclick="popmusic()">
+                    <input type="button" value="Turbo Folk"onclick="turbofolkmusic()">
+            </div>
+
+
         </div>
-
-
-
-
     <!--ticket-->
 
     <div class="ticket" id="ticket">
-        <h3>Ticket</h3>
-    <div class="enterticket">
 
-    </div>
+        <div class="ticketdrink">
+
+        </div>
+
+
+        <div class="ticketmusic" id="ticketmusic">
+
+        </div>
+
+
+        <div class="ticketdetail">
+
+        </div>
+
+
     </div>
 <script src="reservation.js"></script>
 </body>
