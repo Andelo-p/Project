@@ -283,11 +283,20 @@ background-position: center;
     flex-direction: row;
 }
 .ticketdrink{
+    margin-top: 25px;
     width: 33%;
+    height: 400px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
 }
 .ticketmusic{
     width: 33%;
- 
     background-size: cover;
     background-position: center;
 }
