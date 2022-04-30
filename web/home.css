@@ -65,41 +65,274 @@ h2{
     color: white;
     font-size: 1.8rem;    
 }
+
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1rem;
+}
+
+
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    color: black;
+    text-transform: uppercase; 
+}
+
+h3::before{
+    content: attr(data-text);
+    position: absolute;
+    height: 4%;
+    color: #03495B;
+    -webkit-text-stroke: 0vw #363736;
+    border-right: 5px solid #03495B;
+    overflow: hidden;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%{
+        width: 40%;
+    }
+}
 a{
     padding-left: 7.5%;}
-
-.live{
-    border-style: solid;
-    border-width: auto;
-    border-color: #F5C810;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 450px;
-    margin-left: 450px;
-    background-color: lightblue;
-}
 
 .video1{
     border-style: solid;
     border-width: medium;
-    border-color: #4C035B;
+    border-color: #03495B;
     align-items: center;
     float: left;
-    height: 800px;
+    height: 2000px;
     width: 415px;
     margin-left: 10px;
+    position: absolute;
+}
+.follow{
+    margin-top: 15px;
+    height: 420px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/instagram.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+.follow p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+.follow:hover{
+    height: 420px;
+    width: 415px;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
+}
+.follow:hover p{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
-.icon2{
+.logo{
+    margin-top: 15px;
+    height: 570px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+
+.follow2{
+    margin-top: 15px;
+    height: 270px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/tiktok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+.follow2 p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+.follow2:hover{
+    height: 270px;
+    width: 415px;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
+}
+.follow2:hover p{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.about{
+    border-style: solid;
+    border-width: medium;
+    border-color: #03495B;
+    align-items: center;
+    float: right;
+    height: 2000px;
+    width: 415px;
+    margin-right: 10px;
+}
+
+.drinks{
+    height: 700px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/drinks.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+.drinks p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+.drinks:hover{
+    height: 700px;
+    width: 415px;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
+}
+.drinks:hover p{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.logo{
+    margin-top: 15px;
+    height: 570px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+
+.explore{
+    margin-top: 15px;
+    height: 700px;
+    width: 415px;
+    transition: none;
+    background-image: url(../pictures/party.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+.explore p{
+    opacity: 0;
+    transform: scale(0);
+    transition: 1.2s;
+    font-size: 1.2rem;
+    color: white;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+.explore:hover{
+    height: 700px;
+    width: 415px;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
+}
+.explore:hover p{
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+.text{
     border-style: solid;
     border-width: medium;
     border-color: #4C035B;
     align-items: center;
-    float: right;
-    height: 800px;
-    width: 415px;
-    margin-right: 10px;
+    background-image: url(../pictures/DJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2000px;
+    width: 900px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mySlides{
@@ -109,7 +342,5 @@ a{
 
 body{
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
 }
