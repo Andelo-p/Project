@@ -99,6 +99,256 @@ function table2_7(){
     table2__7Id.innerHTML=" "
     selection(table2__7,table2__7val,table2__7Id)
 }
+/* 3---*/
+function table3_1(){
+    let table3__1 = "Row 3 table No. 1";
+    let table3__1val= 260;
+    let table3__1Id=document.getElementById("table3-1");
+    table3__1Id.innerHTML=" "
+    selection(table3__1,table3__1val,table3__1Id)
+}
+function table3_2(){
+    let table3__2 = "Row 3 table No. 2";
+    let table3__2val= 260;
+    let table3__2Id=document.getElementById("table3-2");
+    table3__2Id.innerHTML=" "
+    selection(table3__2,table3__2val,table3__2Id)
+}
+function table3_3(){
+    let table3__3 = "Row 3 table No. 3";
+    let table3__3val= 260;
+    let table3__3Id=document.getElementById("table3-3");
+    table3__3Id.innerHTML=" "
+    selection(table3__3,table3__3val,table3__3Id)
+}
+function table3_4(){
+    let table3__4 = "Row 3 table No. 4";
+    let table3__4val= 260;
+    let table3__4Id=document.getElementById("table3-4");
+    table3__4Id.innerHTML=" "
+    selection(table3__4,table3__4val,table3__4Id)
+}
+function table3_5(){
+    let table3__5 = "Row 3 table No. 5";
+    let table3__5val= 260;
+    let table3__5Id=document.getElementById("table3-5");
+    table3__4Id.innerHTML=" "
+    selection(table3__5,table3__5val,table3__5Id)
+}
+function table3_6(){
+    let table3__6 = "Row 3 table No. 6";
+    let table3__6val= 260;
+    let table3__6Id=document.getElementById("table3-6");
+    table3__6Id.innerHTML=" "
+    selection(table3__6,table3__6val,table3__6Id)
+}
+function table3_7(){
+    let table3__7 = "Row 3 table No. 7";
+    let table3__7val= 260;
+    let table3__7Id=document.getElementById("table3-7");
+    table3__7Id.innerHTML=" "
+    selection(table3__7,table3__7val,table3__7Id)
+}
+/*4*/
+function table4_1(){
+    let table4__1 = "Row 4 table No. 1";
+    let table4__1val= 290;
+    let table4__1Id=document.getElementById("table4-1");
+    table4__1Id.innerHTML=" "
+    selection(table4__1,table4__1val,table4__1Id)
+}
+function table3_2(){
+    let table4__2 = "Row 4 table No. 2";
+    let table4__2val= 290;
+    let table4__2Id=document.getElementById("table4-2");
+    table4__2Id.innerHTML=""
+    selection(table4__2,table4__2val,table4__2Id)
+}
+function table4_3(){
+    let table4__3 = "Row 4 table No. 3";
+    let table4__3val= 290;
+    let table4__3Id=document.getElementById("table4-3");
+    table4__3Id.innerHTML=" "
+    selection(table4__3,table4__3val,table4__3Id)
+}
+function table4_4(){
+    let table4__4 = "Row 4 table No. 4";
+    let table4__4val= 290;
+    let table4__4Id=document.getElementById("table4-4");
+    table4__4Id.innerHTML=" "
+    selection(table4__4,table4__4val,table4__4Id)
+}
+function table4_5(){
+    let table4__5 = "Row 4 table No. 5";
+    let table4__5val= 260;
+    let table4__5Id=document.getElementById("table4-5");
+    table4__4Id.innerHTML=" "
+    selection(table4__5,table4__5val,table4__5Id)
+}
+function table4_6(){
+    let table4__6 = "Row 4 table No. 6";
+    let table4__6val= 290;
+    let table4__6Id=document.getElementById("table4-6");
+    table4__6Id.innerHTML=" "
+    selection(table4__6,table4__6val,table4__6Id)
+}
+function table4_7(){
+    let table4__7 = "Row 4 table No. 7";
+    let table4__7val= 290;
+    let table4__7Id=document.getElementById("table4-7");
+    table4__7Id.innerHTML=" "
+    selection(table4__7,table4__7val,table4__7Id)
+}
+/**5 */ 
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+/**6 */
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+/**7 */
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
+function table2_7(){
+    let table2__7 = "Row 2 table No. 7";
+    let table2__7val= 230;
+    let table2__7Id=document.getElementById("table2-7");
+    table2__7Id.innerHTML=" "
+    selection(table2__7,table2__7val,table2__7Id)
+}
 
 /*---Selection---*/
 function selection(tablePosistion,tableVal,tableId) {
@@ -109,9 +359,9 @@ function selection(tablePosistion,tableVal,tableId) {
     tableval = tableVal;
     tableid = tableId;
 
-    let tablename = document.getElementById("selectiontablename");
+    let tablename = document.getElementById("tableposistion");
     let tableprize=document.getElementById("selectiontableprice");
-
+        
     tablename.value=tableposistion;
     tableprize.value=tableval + " kn";
 
@@ -125,62 +375,64 @@ function costPerPeople(){
 }
 
 /*---Ticket--- */
-
-
-
+ function rockmusic(){
+     document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/rockticket.png')"
+ }
+ function technomusic(){
+    document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/technoticket.png')"
+ }
+ function popmusic(){
+    document.getElementById("ticketmusic").style.backgroundImage= "url('../pictures/popmusicticket.png')"
+ }
+ function hiphopmusic(){
+     document.getElementById("ticketmusic").style.backgroundImage="url('../pictures/hiphopticket.png')"
+ }
+ function tictocmusic(){
+    document.getElementById("ticketmusic").style.backgroundImage="url('.../pictures/tiktok.jpg')"
+}
+function rapmusic(){
+    document.getElementById("ticketmusic").style.backgroundImage="url('../pictures/rap.jpg')"
+}
+function turbofolkmusic(){
+    document.getElementById("ticketmusic").style.backgroundImage="url('../pictures/yourockticket.png')"
+}
 /*---select type of drink--- */
-function whisky(){
-    document.getElementById("whiskeyselect").style.display="block";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
+function one(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/jack.png')"
 }
-function vodka(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="block";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
+function jeger(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/jeger.png')"
 }
-function cognac(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="block";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
+function jameson(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/jameson.png')"
 }
-function rum(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="block";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="none";
+function johnny(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/johhny.png')"
 }
-function tequila(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="block";
-    document.getElementById("ginselect").style.display="none";
+function proper(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/proper.png')"
 }
-function gin(){
-    document.getElementById("whiskeyselect").style.display="none";
-    document.getElementById("vodkaselect").style.display="none";
-    document.getElementById("cognacselect").style.display="none";
-    document.getElementById("rumselect").style.display="none";
-    document.getElementById("tequilaselect").style.display="none";
-    document.getElementById("ginselect").style.display="block";
+function beluga(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/beluga.png')"
 }
-
-function whiskeyType1(){
-    let numOfBottles =document.getElementById("numofbottles").value ;
-    let priceWhiskey1 = 300 
-    let totalWhiskey1 = numOfBottles * priceWhiskey1;
-    alert(totalWhiskey1)
+function gray(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/beluga.png')"
+}
+function sminrof(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/sminroff.png')"
+}
+function badel(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/badel.png')"
+}
+function beefeater(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/beefeater.png')"
+}
+function absinthe(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/abshinthe.png')"
+}
+function moet(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/moet.png')"
+}
+function tanq(){
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/tanq.png')"
 }

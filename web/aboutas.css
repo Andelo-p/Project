@@ -22,7 +22,7 @@
     margin: 0 auto;
     background-color: #03495B;
 }
-.about_us{
+.about_us{ 
     height: 100%;
     display: table;
     float: left;
@@ -92,10 +92,10 @@ body{
     width: 415px;
     }
 .education{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     transition: none;
-    justify-content: center;
+    justify-content: left;
     background-image: url(../pictures/education.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -109,8 +109,8 @@ body{
     color: white;
 }
 .education:hover{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
 }
 .education:hover p{
@@ -122,14 +122,14 @@ body{
     -o-transform: scale(1);
 }
 .contact{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     transition: none;
-    justify-content: center;
+    justify-content:right;
     background-image: url(../pictures/contact.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 3%;
+    margin-left: 53%;
 }
 .contact p{
     opacity: 0;
@@ -139,8 +139,8 @@ body{
     color: white;
 }
 .contact:hover{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
 }
 .contact:hover p{
@@ -149,8 +149,8 @@ body{
 }
 
 .hobbies{
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     transition: none;
     justify-content: left top;
     background-image: url(../pictures/hobbies2.png);
@@ -174,8 +174,8 @@ body{
     -o-transition: 1.2s;
 }
 .hobbies:hover{
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     box-shadow: 0 0 0 250px rgba(0, 0, 0, 0.8) inset;
 }
 .hobbies:hover p{
