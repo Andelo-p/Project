@@ -22,21 +22,13 @@
             </ul>
         </div>
     </div>
-
-
-
     <h1>Reservation</h1>
-
     <!--Ground plan-->
     <div class="groundplan" id="groundplan">
-
         <div id="middleplan">
-
             <div id="leftside">
             </div>
-
             <div id="middle"> 
-
                 <div id="firstrow">
                     <div id="table1-1"><button id="tablenumber" onclick="table1_1()">1</button></div>
                     <div id="table1-2"><button id="tablenumber" onclick="table1_2()">2</button></div>
@@ -46,7 +38,6 @@
                     <div id="table1-6"><button id="tablenumber" onclick="table1_6()">6</button></div>
                     <div id="table1-7"><button id="tablenumber" onclick="table1_7()">7</button></div>
                 </div>
-
                 <div id="secondrow">
                     <div id="table2-1"><button id="tablenumber" onclick="table2_1()">9</button></div>
                     <div id="table2-2"><button id="tablenumber" onclick="table2_2()">10</button></div>
@@ -56,17 +47,15 @@
                     <div id="table2-6"><button id="tablenumber" onclick="table2_6()">13</button></div>
                     <div id="table2-7"><button id="tablenumber" onclick="table2_7()">14</button></div>
                 </div>
-
                 <div id="thirdrow">
                     <div id="table3-1"><button id="tablenumber" onclick="table3_1()">15</button></div>
                     <div id="table3-2"><button id="tablenumber" onclick="table3_2()">16</button></div>
-                    <div id="table3-3"><button id="tablenumber" onclick="table3_2()">17</button></div>
-                    <div id="table3-4"><button id="tablenumber" onclick="table3_3()">18</button></div>
-                    <div id="table3-5"><button id="tablenumber" onclick="table3_4()">19</button></div>
+                    <div id="table3-3"><button id="tablenumber" onclick="table3_3()">17</button></div>
+                    <div id="table3-4"><button id="tablenumber" onclick="table3_4()">18</button></div>
+                    <div id="table3-5"><button id="tablenumber" onclick="table3_5()">19</button></div>
                     <div id="table3-6"><button id="tablenumber" onclick="table3_6()">20</button></div>
                     <div id="table3-7"><button id="tablenumber" onclick="table3_7()">21</button></div>
                 </div>
-
                 <div id="fourthrow">
                     <div id="table4-1"><button id="tablenumber" onclick="table4_1()">22</button></div>
                     <div id="table4-2"><button id="tablenumber" onclick="table4_2()">23</button></div>
@@ -76,7 +65,6 @@
                     <div id="table4-6"><button id="tablenumber" onclick="table4_6()">27</button></div>
                     <div id="table4-7"><button id="tablenumber" onclick="table4_7()">28</button></div>
                 </div>
-
                 <div id="fifthrow">
                     <div id="table5-1"><button id="tablenumber" onclick="table5_1()">29</button></div>
                     <div id="table5-2"><button id="tablenumber" onclick="table5_2()">30</button></div>
@@ -86,7 +74,6 @@
                     <div id="table5-6"><button id="tablenumber" onclick="table5_6()">34</button></div>
                     <div id="table5-7"><button id="tablenumber" onclick="table5_7()">35</button></div>
                 </div>
-
                 <div id="sixthrow">
                     <div id="table6-1"><button id="tablenumber" onclick="table6_1()">36</button></div>
                     <div id="table6-2"><button id="tablenumber" onclick="table6_2()">37</button></div>
@@ -96,7 +83,6 @@
                     <div id="table6-6"><button id="tablenumber" onclick="table6_6()">41</button></div>
                     <div id="table6-7"><button id="tablenumber" onclick="table6_7()">42</button></div>
                 </div>
-
                 <div id="seventhrow">
                     <div id="table7-1"><button id="tablenumber" onclick="table7_1()">43</button></div>
                     <div id="table7-2"><button id="tablenumber" onclick="table7_2()">44</button></div>
@@ -113,95 +99,92 @@
         <div class="bottomplan">
             <div id="semicircle">
             </div>
-
-
         </div>
     </div>
-
     <!--Selection and bill-->
-        
         <div class="detailsselection" id="detailsselection">
-
-
-
-
-            <div class="tabledetail">
+            <div class="tabledetail" id="tabledetail">
                 <p>Table posistion</p>
                     <input type="text" id="tableposistion" readonly>
                 <p>Number of people</p>
-                    <input type="number"id="peopletable" min="1">
+                    <input type="number"id="peopletable" min="1" max="8">
+                    <br>
+                    <input type="button" value="Confirm" onclick="numofpeople()">
             </div>
-
-
-
-
-            <div class="drinkselect">
+            <div class="drinkselect" id="drinkselect">
                 <p>Number of bottles</p>
-                    <input type="number" id="numberofbottles" min="1">
+                    <input type="number" id="numberofbottles" min="1" max="45">
                 <p>Alcohol drink</p>
-                    <input type="button" value="Jack Daniels" onclick="one()">
-                    <input type="button" value="Johnny Walker"onclick="johnny()">
-                    <input type="button" value="Jameson" onclick="jameson()">
-                    <input type="button" value="Propre Twelve" onclick="proper()">
-                    <input type="button" value="Beluga Vodka" onclick="beluga()">
-                    <input type="button" value="Grey Goose" onclick="gray()">
-                    <input type="button" value="Smirnof No.21"onclick="sminrof()">
-                    <input type="button" value="Badel 1862" onclick="badel()">
-                    <input type="button" value="Jegermeister"onclick="jeger()">
-                    <input type="button" value="Tanqueray Gin" onclick="tanq()">
-                    <input type="button" value="Beefeater Gin" onclick="beefeater()">
-                    <input type="button" value="Absinthe" onclick="absinthe()">
-                    <input type="button" value="Moet" onclick="moet()">
+                    <input type="button" id="btnn" value="Jack Daniels" onclick="one()">
+                    <input type="button" id="btnn" value="Johnny Walker"onclick="johnny()">
+                    <input type="button" id="btnn" value="Jameson" onclick="jameson()">
+                    <input type="button" id="btnn" value="Propre Twelve" onclick="proper()">
+                    <input type="button" id="btnn" value="Beluga Vodka" onclick="beluga()">
+                    <input type="button" id="btnn" value="Grey Goose" onclick="gray()">
+                    <input type="button" id="btnn" value="Smirnof No.21"onclick="sminrof()">
+                    <input type="button" id="btnn" value="Badel 1862" onclick="badel()">
+                    <input type="button" id="btnn" value="Jegermeister"onclick="jeger()">
+                    <input type="button" id="btnn" value="Tanqueray Gin" onclick="tanq()">
+                    <input type="button" id="btnn" value="Beefeater Gin" onclick="beefeater()">
+                    <input type="button" id="btnn" value="Absinthe" onclick="absinthe()">
+                    <input type="button" id="btnn" value="Moet" onclick="moet()">
+                        <br><br>
+                    <input type="button" value="Confirm" onclick="softdrinks()">
             </div>
-               
-
-
-            <div class="softdrink">
+            <div class="softdrink" id="softdrink">
                 <p>Number of bottles</p>
-                    <input type="number" id="numofsoftdrink" min="1">
+                    <input type="number" id="numofsoftdrink" min="1" max="45">
                 <p>Drink list</p>
-                    <input type="button" value="Coca-Cola 1L">
-                    <input type="button" value="Coca-Cola 0.33L">
-                    <input type="button" value="Juice 1L">
-                    <input type="button" value="Monster Energy 0.5L">
-                    <input type="button" value="Red Bull 0.25L">
-                    <input type="button" value="Apple Juice 1L">
-                    <input type="button" value="Tonic Water">
+                    <input type="button" id="btnn" value="Coca-Cola 1L" onclick="coca1()">
+                    <input type="button" id="btnn" value="Coca-Cola 0.33L"onclick="coca33()">
+                    <input type="button" id="btnn" value="Juice 1L" onclick="juice()">
+                    <input type="button" id="btnn" value="Monster Energy 0.5L" onclick="monster()">
+                    <input type="button" id="btnn" value="Red Bull 0.25L" onclick="redbull()">
+                    <input type="button" id="btnn" value="Apple Juice 1L" onclick="apple()">
+                    <input type="button" id="btnn" value="Tonic Water" onclick="tonic()">
+                    <br>
+                    <input type="button" value="Confirm" onclick="musics()">
+
             </div>
+            <div class="favoritemusic" id="favoritemusic">
+                <p>Select type of music</p>
+                    <input type="button" id="btnn" value="Rock" onclick="rockmusic()">
+                    <input type="button" id="btnn" value="Techno" onclick="technomusic()">
+                    <input type="button" id="btnn" value="Hip Hop"onclick="hiphopmusic()">
+                    <input type="button" id="btnn" value="Rap"onclick="rapmusic()">
+                    <input type="button" id="btnn" value="Pop"onclick="popmusic()">
+                    <input type="button" id="btnn" value="Turbo Folk"onclick="turbofolkmusic()">
+                    <br>
+                    <input type="button" value="Finish" onclick="finish()">
 
-
-
-            <div class="favoritemusic">
-                <p>Select favortite type of music</p>
-                    <input type="button" value="Rock" onclick="rockmusic()">
-                    <input type="button" value="Techno" onclick="technomusic()">
-                    <input type="button" value="Hip Hop"onclick="hiphopmusic()">
-                    <input type="button" value="Tic Toc" onclick="tictocmusic()">
-                    <input type="button" value="Rap"onclick="rapmusic()">
-                    <input type="button" value="Pop"onclick="popmusic()">
-                    <input type="button" value="Turbo Folk"onclick="turbofolkmusic()">
+            </div>
+            <div class="pricee" id="pricee">
+                <p>Total price</p>
+                <input type="text" id="tableprice">
+                <input type="text"  id="peopleprice">
+                <input type="text"  id="bottleprice">
+                <input type="text"  id="softprice">
+                <input type="text"  id="sum">
             </div>
         </div>
     <!--ticket-->
-
     <div class="ticket" id="ticket">
-
         <div class="ticketdrink" id="ticketdrink">
-
         </div>
-
-
         <div class="ticketmusic" id="ticketmusic">
-
         </div>
-
-
         <div class="ticketdetail">
-
+                <h3>Lion Club</h3>
+                <p>This ticket is valid for</p>
+                <input type="text" readonly id="ttpeople">
+                <p>on table in</p>
+                <input type="text" readonly id="ttposistion">
+                <p>for price of</p>
+                <input type="num" readonly id="ttprize">
+                <h4>Enjoy</h4>
         </div>
-
-
     </div>
+    <input type="text" readonly id="sum">
 <script src="reservation.js"></script>
 </body>
 </html>
