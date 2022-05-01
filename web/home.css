@@ -1,7 +1,5 @@
-/*---Heder navbar---*/
-
 .header{
-    height: 147px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,7 +11,7 @@
     padding-bottom: 1%;
     padding-top: 1%;
     border-radius: 15px 50px;
-    background-color: #363736;
+    
 }
 .inner_header{
     width: 98%;
@@ -21,7 +19,8 @@
     border-radius: 15px 50px;
     display: block;
     margin: 0 auto;
-    background-color: #03495B;
+    background-color: #066970;
+    border: #363736 3px solid;
 }
 .about_us{
     height: 100%;
@@ -59,6 +58,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 h2{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -77,7 +77,7 @@ p{
 h3{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: black;
     text-transform: uppercase; 
 }
@@ -113,14 +113,14 @@ a{
     align-items: center;
     float: left;
     height: 2000px;
-    width: 415px;
+    width: 400px;
     margin-left: 10px;
-    position: absolute;
+    
 }
 .follow{
     margin-top: 15px;
     height: 420px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/instagram.jpg);
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ a{
 }
 .follow:hover{
     height: 420px;
-    width: 415px;
+    width: 400px;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
 }
 .follow:hover p{
@@ -161,7 +161,7 @@ a{
 .logo{
     margin-top: 15px;
     height: 570px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/icon2.jpg);
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ a{
 .follow2{
     margin-top: 15px;
     height: 270px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/tiktok.jpg);
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ a{
 }
 .follow2:hover{
     height: 270px;
-    width: 415px;
+    width: 400px;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
 }
 .follow2:hover p{
@@ -219,13 +219,13 @@ a{
     align-items: center;
     float: right;
     height: 2000px;
-    width: 415px;
+    width: 400px;
     margin-right: 10px;
 }
 
 .drinks{
     height: 700px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/drinks.jpg);
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ a{
 }
 .drinks:hover{
     height: 700px;
-    width: 415px;
+    width: 400px;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
 }
 .drinks:hover p{
@@ -266,7 +266,7 @@ a{
 .logo{
     margin-top: 15px;
     height: 570px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/icon2.jpg);
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ a{
 .explore{
     margin-top: 15px;
     height: 700px;
-    width: 415px;
+    width: 400px;
     transition: none;
     background-image: url(../pictures/party.jpg);
     background-repeat: no-repeat;
@@ -305,7 +305,7 @@ a{
 }
 .explore:hover{
     height: 700px;
-    width: 415px;
+    width: 400px;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.8) inset;
 }
 .explore:hover p{
@@ -327,7 +327,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 2000px;
-    width: 900px;
+    width: 650px;
     position: absolute;
     left: 0;
     right: 0;

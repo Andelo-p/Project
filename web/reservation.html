@@ -27,6 +27,13 @@
     <div class="groundplan" id="groundplan">
         <div id="middleplan">
             <div id="leftside">
+                <div class="exitl">
+                        Exit
+                    </div>
+                <div class="bartextleft">
+                    <p><br> B <br>A <br>R <br><br>1</p>
+                    
+                </div>
             </div>
             <div id="middle"> 
                 <div id="firstrow">
@@ -94,10 +101,21 @@
                 </div>
             </div>
             <div id="rightside">
+                <div class="exitr">
+                    Exit
+                </div>
+                <div class="bartextright">
+                    <p><br> B <br>A <br>R <br><br>2</p>
+                </div>
+               
             </div>
         </div>
         <div class="bottomplan">
             <div id="semicircle">
+                <div class="preformer">
+                    Performer or DJ
+
+                </div>
             </div>
         </div>
     </div>
@@ -109,7 +127,7 @@
                 <p>Number of people</p>
                     <input type="number"id="peopletable" min="1" max="8">
                     <br>
-                    <input type="button" value="Confirm" onclick="numofpeople()">
+                    <input type="button" value="Confirm" id="proced" onclick="numofpeople()">
             </div>
             <div class="drinkselect" id="drinkselect">
                 <p>Number of bottles</p>
@@ -129,7 +147,7 @@
                     <input type="button" id="btnn" value="Absinthe" onclick="absinthe()">
                     <input type="button" id="btnn" value="Moet" onclick="moet()">
                         <br><br>
-                    <input type="button" value="Confirm" onclick="softdrinks()">
+                    <input type="button" value="Confirm" id="proced" onclick="softdrinks()">
             </div>
             <div class="softdrink" id="softdrink">
                 <p>Number of bottles</p>
@@ -143,7 +161,7 @@
                     <input type="button" id="btnn" value="Apple Juice 1L" onclick="apple()">
                     <input type="button" id="btnn" value="Tonic Water" onclick="tonic()">
                     <br>
-                    <input type="button" value="Confirm" onclick="musics()">
+                    <input type="button" value="Confirm" id="proced" onclick="musics()">
 
             </div>
             <div class="favoritemusic" id="favoritemusic">
@@ -155,10 +173,10 @@
                     <input type="button" id="btnn" value="Pop"onclick="popmusic()">
                     <input type="button" id="btnn" value="Turbo Folk"onclick="turbofolkmusic()">
                     <br>
-                    <input type="button" value="Finish" onclick="finish()">
+                    <input type="button" value="Finish" id="proced" onclick="finish()">
 
             </div>
-            <div class="pricee" id="pricee">
+            <div class="price" id="price">
                 <p>Total price</p>
                 <input type="text" id="tableprice">
                 <input type="text"  id="peopleprice">
@@ -166,6 +184,25 @@
                 <input type="text"  id="softprice">
                 <input type="text"  id="sum">
             </div>
+            <br><br>
+            <div class="usermanual">
+                <h3>User manual and rules</h3><br>
+                <p> 1. You always have to choose the quantity first and then the type of drink. <br>
+                In case you enter the drink first, you need to choose the type again. </p>
+                <p>2. Your reservation is valid until 00:30 after which it is not valid.</p>
+                <p>3. Payment is made immediately upon entering the club with the price of the ticket. <br>
+                    the club on one ticket can enter as many people as stated on it.</p>
+                <p>4.No entry for persons under 18 years of age !</p>
+                <p>5.In case of intentional material damage, all people at that table will be automatically
+                removed from the club.</p>
+                <p>6.They are obliged to pay for the damage or will be prosecuted and will not be refunded
+                the money from the reservation.</p><br>
+            </div>
+
+
+
+
+
         </div>
     <!--ticket-->
     <div class="ticket" id="ticket">
@@ -179,12 +216,11 @@
                 <input type="text" readonly id="ttpeople">
                 <p>on table in</p>
                 <input type="text" readonly id="ttposistion">
-                <p>for price of</p>
+                <p>for total price of(kn)</p>
                 <input type="num" readonly id="ttprize">
                 <h4>Enjoy</h4>
         </div>
     </div>
-    <input type="text" readonly id="sum">
 <script src="reservation.js"></script>
 </body>
 </html>

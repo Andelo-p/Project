@@ -581,7 +581,7 @@ function beluga(){
     document.getElementById("bottleprice").value=belugatotal;
 }
 function gray(){
-    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/beluga.png')"
+    document.getElementById("ticketdrink").style.backgroundImage="url('../pictures/gray.png')"
     let graynum = document.getElementById("numberofbottles").value;
     let grayprice =900;
     let garytotal;

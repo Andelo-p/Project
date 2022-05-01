@@ -1,6 +1,6 @@
 
 .header{
-    height: 147px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,7 +12,7 @@
     padding-bottom: 1%;
     padding-top: 1%;
     border-radius: 15px 50px;
-    background-color: #363736;
+    
 }
 .inner_header{
     width: 98%;
@@ -20,7 +20,8 @@
     border-radius: 15px 50px;
     display: block;
     margin: 0 auto;
-    background-color: #03495B;
+    background-color: #066970;
+    border: #363736 3px solid;
 }
 .about_us{
     height: 100%;
@@ -68,12 +69,16 @@ h2{
 }
 a{
     padding-left: 7.5%;}
+h1{
+    margin-left: 2%;
+}
 /*--tijelo--*/
 body{
     background-image: url(../pictures/binarni2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 /* --Likovi-- */
 .character{
@@ -129,7 +134,7 @@ body{
     background-image: url(../pictures/contact.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 3%;
+    margin-left: 50%;
 }
 .contact p{
     opacity: 0;
@@ -196,6 +201,7 @@ body{
 /* --Zaglavlje-- */
 footer{
     height: 150px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center ;
@@ -212,4 +218,8 @@ footer{
     -moz-border-radius: 15px 50px 30px 5px;
     -ms-border-radius: 15px 50px 30px 5px;
     -o-border-radius: 15px 50px 30px 5px;
+    width:100%;
+}
+footer a{
+    margin-left: 10%;
 }
